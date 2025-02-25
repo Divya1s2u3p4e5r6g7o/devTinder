@@ -4,8 +4,8 @@
   "description": "tinder for devs",
   "main": "index.js",
   "scripts": {
-    "start":"nodemon src/app.js",
-    "dev":"nodemon src/app.js"
+    "start": "nodemon src/app.js",
+    "dev": "nodemon src/app.js"
   },
   "keywords": [
     "nodejs",
@@ -16,6 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.21.2",
+    "mongoose": "^8.10.0",
     "nodemon": "^3.1.9"
   }
 }
